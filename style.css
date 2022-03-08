@@ -1,0 +1,58 @@
+:root{
+    
+    --search-text-color : gray;
+}
+*{
+    background-color: #202125;
+}
+
+.MeowgleImage{
+    display:block;
+    height: 210px;
+    
+    position: absolute;
+    left:21%;
+    top:140px;
+}
+
+.searchbar{
+    background-color: #303135;
+    width: 900px;
+    height:120px;
+    position: absolute;
+    left:4%;
+    top:390px;
+    border-radius: 120px;
+    font-size: 32px;
+    border-color:#202125;
+    color:white;
+    text-align: left;
+}
+
+
+.searchbar:hover{
+    
+}
+
+.SearchBarTextArea{
+    border-color:var(--search-text-color)
+}
+
+.SearchBarTextStatu{
+    color:var(--search-text-color);
+}
+
+
+textarea:focus-within { 
+    outline: none !important;
+    border-color: #303135;
+    
+}
+
+.BottomBar{
+    height: 140px;
+    width: 100%;
+    background-color:#303135;
+    position: fixed;
+    top:93%;
+}
